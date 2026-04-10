@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical"
+
+
+    android:background="#186D1E"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:padding="10dp"
+        android:background="@drawable/shape"
+        android:text="Sokogarden"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textColor="@color/white"
+        android:layout_margin="30dp"
+        android:textSize="20dp"
+        android:backgroundTint="#396BBF"
+
+        android:id="@+id/signup"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Signin"
+       android:textColor="@color/white"
+       android:layout_margin="30dp"
+       android:textSize="20dp"
+       android:backgroundTint="#396BBF"
+
+       android:id="@+id/signin"
+       />
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
